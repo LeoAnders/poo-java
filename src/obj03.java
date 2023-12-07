@@ -9,7 +9,7 @@ public class obj03 {
         Scanner sc = new Scanner(System.in);
 
         Triangle x,y;
-        //Para que podemos usar o OBJ devemos in istanciar/criar usando o new
+        //Para que podemos usar o OBJ devemos  instanciar/criar usando o new
         x = new Triangle();
         y = new Triangle();
 
