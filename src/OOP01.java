@@ -1,7 +1,7 @@
 //Exemplo de codigo sem utilizar programacao orientada a objetos
 import java.util.Locale;
 import java.util.Scanner;
-public class obj01 {
+public class OOP01 {
     public static void main(String[] args) {
         Locale.setDefault(Locale.US);
         Scanner sc = new Scanner(System.in);

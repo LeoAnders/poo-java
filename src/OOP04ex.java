@@ -1,12 +1,9 @@
-//Fazer um programa para ler os dados de um produto em estoque (nome, preço e
-//quantidade no estoque)
-
 import entities.Product;
 
 import java.util.Scanner;
 
 //Primeiro exportamos nossa classe Product
-public class obj04ex {
+public class OOP04ex {
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);

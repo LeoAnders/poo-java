@@ -1,17 +1,15 @@
 
-
-//Criados as entidades dos atributos dos triangulos e importamos CTRL+SHIFT+o
+//Corrigindo problemas de repeticao de codigo e passando metodo de soma para entidade trinagulo
 import entities.Triangle;
-
 import java.util.Locale;
 import java.util.Scanner;
-public class obj02 {
+public class OOP303 {
     public static void main(String[] args) {
         Locale.setDefault(Locale.US);
         Scanner sc = new Scanner(System.in);
 
         Triangle x,y;
-        //Para que podemos usar o OBJ devemos in istanciar/criar usando o new
+        //Para que podemos usar o OBJ devemos  instanciar/criar usando o new
         x = new Triangle();
         y = new Triangle();
 
@@ -26,10 +24,9 @@ public class obj02 {
         y.b = sc.nextDouble();
         y.c = sc.nextDouble();
 
-        double p = (x.a + x.b + x.c) / 2.0;
-        double areaX = Math.sqrt(p * (p - x.a) * (p - x.b) * (p - x.c));
-        p = (y.a + y.b + y.c) / 2.0;
-        double areaY = Math.sqrt(p * (p - y.a) * (p - y.b) * (p - y.c));
+        double areaX = x.area();
+        double areaY = y.area();
+
         System.out.printf("Triangle X area: %.4f%n", areaX);
         System.out.printf("Triangle Y area: %.4f%n", areaY);
         if (areaX > areaY) {

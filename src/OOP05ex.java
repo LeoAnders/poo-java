@@ -1,7 +1,7 @@
 import entities.Rectangle;
 import java.util.Scanner;
 
-public class obj05ex {
+public class OOP05ex {
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
