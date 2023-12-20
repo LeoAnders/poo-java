@@ -1,6 +1,6 @@
-package entities;
+package OOP.entities;
 
-public class Triangle {
+public class TriangleXY {
     public double a;
     public double b;
     public double c;

@@ -1,8 +1,10 @@
-import entities.Employee;
+package OOP;
+
+import OOP.entities.Employee;
 
 import java.util.Scanner;
 
-public class OOP06ex {
+public class ex04Employee {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 

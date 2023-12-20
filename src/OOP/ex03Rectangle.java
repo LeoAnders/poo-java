@@ -1,7 +1,9 @@
-import entities.Rectangle;
+package OOP;
+
+import OOP.entities.Rectangle;
 import java.util.Scanner;
 
-public class OOP05ex {
+public class ex03Rectangle {
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);

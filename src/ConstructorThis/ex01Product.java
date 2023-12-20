@@ -1,28 +1,35 @@
-import entities.Product;
+package ConstructorThis;
+
+import ConstructorThis.entites.Product;
 
 import java.util.Scanner;
 
 //Primeiro exportamos nossa classe Product
-public class OOP04ex {
+public class ex01Product {
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
 
-        Product product = new Product();
         System.out.println("Enter product data: ");
         System.out.print("Name: ");
-        product.name = sc.nextLine();
+        String name = sc.nextLine();
         System.out.print("Price: ");
-        product.price = sc.nextDouble();
+        Double price = sc.nextDouble();
         System.out.print("Quantity in stock: ");
-        product.quantity = sc.nextInt();
+        int quantity = sc.nextInt();
+        Product product = new Product(name, price, quantity);
+
+        product.setName("Computer");
+        System.out.println("Update name: " + product.getName());
+        product.setPrice(1200.00);
+        System.out.println("Update price: " + product.getPrice());
 
         System.out.println();
         System.out.println("product data: " + product);
 
         System.out.println();
         System.out.println("Enter the number of products to be added in stock: ");
-        int quantity = sc.nextInt();
+        quantity = sc.nextInt();
         product.addProducts(quantity);
 
         System.out.println();

@@ -1,0 +1,29 @@
+Quando executamos o comando abaixo, instanciamos um produto “Product”
+com seus atributos “Vazios”: Product p = new Product();
+Entretanto, faz sentido um produto que não tem nome? Faz sentido um produto que não tem preço?
+
+Com o intuito de evitar a existência de produtos sem nome e sem preço,
+e possível fazer com que seja “Obrigatória” a iniciação desses valores?
+Sim e possível para isso usamos o construtor,
+Permitir ou obrigar que o objeto receba dados
+
+
+
+Fazer um programa para ler os dados de um produto em estoque (nome, preço e
+quantidade no estoque)
+
+• Mostrar os dados do produto (nome, preço, quantidade no estoque, valor total no
+estoque)
+• Realizar uma entrada no estoque e mostrar novamente os dados do produto
+• Realizar uma saída no estoque e mostrar novamente os dados do produto
+
+Example:
+Enter product data:
+Name: TV
+Price: 900.00
+Quantity in stock: 10
+Product data: TV, $ 900.00, 10 units, Total: $ 9000.00
+Enter the number of products to be added in stock: 5
+Updated data: TV, $ 900.00, 15 units, Total: $ 13500.00
+Enter the number of products to be removed from stock: 3
+Updated data: TV, $ 900.00, 12 units, Total: $ 10800.00

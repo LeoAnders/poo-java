@@ -1,4 +1,4 @@
-package entities;
+package OOP.entities;
 
 public class CurrencyConverter {
 

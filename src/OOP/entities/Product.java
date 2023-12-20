@@ -1,4 +1,4 @@
-package entities;
+package OOP.entities;
 
 public class Product {
 
@@ -21,10 +21,10 @@ public class Product {
     public String toString(){
         return name
                 + ", $"
-                + String.format("%2f", price)
+                + String.format("%.2f", price)
                 + ", "
                 + quantity
                 + " units, Total: $ "
-                + String.format("%2f",totalValueInStock());
+                + String.format("%.2f",totalValueInStock());
     }
 }

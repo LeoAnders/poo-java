@@ -1,7 +1,9 @@
-import entities.Student;
+package OOP;
+
+import OOP.entities.Student;
 import java.util.Scanner;
 
-public class OOP07ex {
+public class ex05Student {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 

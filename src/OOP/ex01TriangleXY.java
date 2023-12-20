@@ -1,17 +1,17 @@
-
+package OOP;
 //Corrigindo problemas de repeticao de codigo e passando metodo de soma para entidade trinagulo
-import entities.Triangle;
+import OOP.entities.TriangleXY;
 import java.util.Locale;
 import java.util.Scanner;
-public class OOP03 {
+public class ex01TriangleXY {
     public static void main(String[] args) {
         Locale.setDefault(Locale.US);
         Scanner sc = new Scanner(System.in);
 
-        Triangle x,y;
+        TriangleXY x,y;
         //Para que podemos usar o OBJ devemos  instanciar/criar usando o new
-        x = new Triangle();
-        y = new Triangle();
+        x = new TriangleXY();
+        y = new TriangleXY();
 
         // Como faco para ler um numero inteiro e guardar no atributo A do OBJ X?
         System.out.println("Enter the measures of triangle X: ");

@@ -1,7 +1,9 @@
-import entities.CurrencyConverter;
+package OOP;
+
+import OOP.entities.CurrencyConverter;
 import java.util.Scanner;
 
-public class OOP08ex {
+public class ex06CurrencyConverter {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
