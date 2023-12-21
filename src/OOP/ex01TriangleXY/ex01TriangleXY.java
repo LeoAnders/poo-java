@@ -1,4 +1,4 @@
-package OOP;
+package OOP.ex01TriangleXY;
 //Corrigindo problemas de repeticao de codigo e passando metodo de soma para entidade trinagulo
 import OOP.entities.TriangleXY;
 import java.util.Locale;

@@ -1,4 +1,4 @@
-package OOP;
+package OOP.ex02Product;
 import OOP.entities.Product;
 import java.util.Scanner;
 

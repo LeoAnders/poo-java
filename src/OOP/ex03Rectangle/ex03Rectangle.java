@@ -1,4 +1,4 @@
-package OOP;
+package OOP.ex03Rectangle;
 
 import OOP.entities.Rectangle;
 import java.util.Scanner;

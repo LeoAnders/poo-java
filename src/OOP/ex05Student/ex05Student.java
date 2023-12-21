@@ -1,4 +1,4 @@
-package OOP;
+package OOP.ex05Student;
 
 import OOP.entities.Student;
 import java.util.Scanner;

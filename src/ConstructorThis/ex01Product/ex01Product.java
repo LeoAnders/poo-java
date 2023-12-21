@@ -1,4 +1,4 @@
-package ConstructorThis;
+package ConstructorThis.ex01Product;
 
 import ConstructorThis.entites.Product;
 

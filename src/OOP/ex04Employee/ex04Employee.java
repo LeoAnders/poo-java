@@ -1,4 +1,4 @@
-package OOP;
+package OOP.ex04Employee;
 
 import OOP.entities.Employee;
 

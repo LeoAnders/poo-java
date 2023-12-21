@@ -1,4 +1,4 @@
-package OOP;
+package OOP.ex06CurrencyConverter;
 
 import OOP.entities.CurrencyConverter;
 import java.util.Scanner;
