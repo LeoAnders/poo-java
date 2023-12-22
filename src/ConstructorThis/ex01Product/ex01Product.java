@@ -1,7 +1,5 @@
 package ConstructorThis.ex01Product;
-
 import ConstructorThis.entites.Product;
-
 import java.util.Scanner;
 
 //Primeiro exportamos nossa classe Product
