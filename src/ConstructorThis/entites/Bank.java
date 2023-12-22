@@ -6,12 +6,12 @@ public class Bank {
     private String accountHolder;
     private double balance;
 
-    //Constructor
+    //Constructor 2 arguments
     public Bank(int accountNumber, String accountHolder) {
         this.accountNumber = accountNumber;
         this.accountHolder = accountHolder;
     }
-    //Overload
+    //Constructor 3 arguments
     public Bank(int accountNumber, String accountHolder, double initialDeposit) {
         this.accountNumber = accountNumber;
         this.accountHolder = accountHolder;
