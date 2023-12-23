@@ -2,7 +2,7 @@ package Arrays.ex01HeightOfPeople;
 
 import java.util.Scanner;
 
-public class HeightOfPeople {
+public class heightOfPeople {
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);

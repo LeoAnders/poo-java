@@ -1,9 +1,9 @@
-package OOP.ex05Student;
+package Arrays.ex01HeightOfPeople.OOP.ex05Student;
 
-import OOP.entities.Student;
+import Arrays.ex01HeightOfPeople.OOP.entities.Student;
 import java.util.Scanner;
 
-public class ex05Student {
+public class student {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 

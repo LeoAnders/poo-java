@@ -1,10 +1,10 @@
-package OOP.ex04Employee;
+package Arrays.ex01HeightOfPeople.OOP.ex03Rectangle.ex04Employee;
 
-import OOP.entities.Employee;
+import Arrays.ex01HeightOfPeople.OOP.entities.Employee;
 
 import java.util.Scanner;
 
-public class ex04Employee {
+public class employee {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 

@@ -1,9 +1,9 @@
-package OOP.ex06CurrencyConverter;
+package Arrays.ex01HeightOfPeople.OOP.ex06CurrencyConverter;
 
-import OOP.entities.CurrencyConverter;
+import Arrays.ex01HeightOfPeople.OOP.entities.CurrencyConverter;
 import java.util.Scanner;
 
-public class ex06CurrencyConverter {
+public class currencyConverter {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 

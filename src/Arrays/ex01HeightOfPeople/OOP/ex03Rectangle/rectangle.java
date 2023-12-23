@@ -1,9 +1,9 @@
-package OOP.ex03Rectangle;
+package Arrays.ex01HeightOfPeople.OOP.ex03Rectangle;
 
-import OOP.entities.Rectangle;
+import Arrays.ex01HeightOfPeople.OOP.entities.Rectangle;
 import java.util.Scanner;
 
-public class ex03Rectangle {
+public class rectangle {
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);

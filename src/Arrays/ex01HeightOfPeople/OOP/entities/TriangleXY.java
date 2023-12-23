@@ -1,4 +1,4 @@
-package OOP.entities;
+package Arrays.ex01HeightOfPeople.OOP.entities;
 
 public class TriangleXY {
     public double a;

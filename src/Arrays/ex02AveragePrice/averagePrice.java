@@ -2,7 +2,7 @@ package Arrays.ex02AveragePrice;
 import Arrays.entites.Product;
 import java.util.Scanner;
 
-public class AveragePrice {
+public class averagePrice {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
