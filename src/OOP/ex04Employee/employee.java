@@ -1,6 +1,6 @@
-package Arrays.ex01HeightOfPeople.OOP.ex03Rectangle.ex04Employee;
+package OOP.ex04Employee;
 
-import Arrays.ex01HeightOfPeople.OOP.entities.Employee;
+import OOP.entities.Employee;
 
 import java.util.Scanner;
 

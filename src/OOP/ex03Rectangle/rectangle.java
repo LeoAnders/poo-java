@@ -1,6 +1,6 @@
-package Arrays.ex01HeightOfPeople.OOP.ex03Rectangle;
+package OOP.ex03Rectangle;
 
-import Arrays.ex01HeightOfPeople.OOP.entities.Rectangle;
+import OOP.entities.Rectangle;
 import java.util.Scanner;
 
 public class rectangle {

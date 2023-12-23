@@ -1,6 +1,6 @@
-package Arrays.ex01HeightOfPeople.OOP.ex06CurrencyConverter;
+package OOP.ex06CurrencyConverter;
 
-import Arrays.ex01HeightOfPeople.OOP.entities.CurrencyConverter;
+import OOP.entities.CurrencyConverter;
 import java.util.Scanner;
 
 public class currencyConverter {

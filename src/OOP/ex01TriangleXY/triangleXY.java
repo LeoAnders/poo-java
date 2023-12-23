@@ -1,6 +1,6 @@
-package Arrays.ex01HeightOfPeople.OOP.ex01TriangleXY;
+package OOP.ex01TriangleXY;
 //Corrigindo problemas de repeticao de codigo e passando metodo de soma para entidade trinagulo
-import Arrays.ex01HeightOfPeople.OOP.entities.TriangleXY;
+import OOP.entities.TriangleXY;
 import java.util.Locale;
 import java.util.Scanner;
 public class triangleXY {

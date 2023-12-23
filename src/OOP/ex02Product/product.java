@@ -1,5 +1,5 @@
-package Arrays.ex01HeightOfPeople.OOP.ex02Product;
-import Arrays.ex01HeightOfPeople.OOP.entities.Product;
+package OOP.ex02Product;
+import OOP.entities.Product;
 import java.util.Scanner;
 
 //Primeiro exportamos nossa classe Product

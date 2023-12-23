@@ -1,6 +1,6 @@
-package Arrays.ex01HeightOfPeople.OOP.ex05Student;
+package OOP.ex05Student;
 
-import Arrays.ex01HeightOfPeople.OOP.entities.Student;
+import OOP.entities.Student;
 import java.util.Scanner;
 
 public class student {
