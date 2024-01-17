@@ -1,4 +1,4 @@
-package Matrix;
+package Matrix.exExample;
 
 import java.util.Scanner;
 
