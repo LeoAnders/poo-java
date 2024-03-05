@@ -1,4 +1,4 @@
-package Matrix.ex01;
+package Matriz.ex01;
 import java.util.Scanner;
 public class program {
     public program() {
